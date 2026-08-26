@@ -104,8 +104,8 @@ BEGIN
 		PRINT '=================================';
 
 	END TRY
+		
 		--Error prompt
-
 	BEGIN CATCH
 		PRINT '====================================';
 		PRINT ' ERROR OCCURED DURING LOADING DATE ';
