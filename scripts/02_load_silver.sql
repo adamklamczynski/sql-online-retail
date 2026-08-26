@@ -89,7 +89,7 @@ BEGIN
 		PRINT '=================================';
 
 	END TRY
-			--Error prompt
+		--Error prompt
 	BEGIN CATCH
 		PRINT '====================================';
 		PRINT ' ERROR OCCURED DURING DATA LOADING';
