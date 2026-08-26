@@ -59,11 +59,20 @@ The analytical models in the Gold Layer connect directly to Power BI to drive th
 ## 📁 Repository Layout
 
 ```text
-├── datasets/             # Raw CSV data files
-├── docs/                 # High Level Architecture & Dashboard images
+.
+├── datasets/             
+│   └── datasets.zip      # Compressed data files
+├── docs/
+│   ├── data_architecture.drawio
+│   ├── data_architecture.png
+│   ├── data_flow.drawio
+│   └── data_flow.png
+├── reports/
+│   ├── Executive_Summary.pbix # Power BI Dashboard
+│   └── Executive_Summary.png
 ├── scripts/
 │   ├── 01_load_bronze.sql # Bronze DDL & Ingestion Procedure
 │   ├── 02_load_silver.sql # Silver Transformation Procedure
 │   └── 03_load_gold.sql   # Gold Star Schema Views
-└── reports/
-    └── Executive_Summary.pbix # Power BI Dashboard
+├── LICENSE               # License file for the repository
+└── README.md             # Project documentation and overview
