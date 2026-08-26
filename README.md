@@ -56,6 +56,12 @@ The analytical models in the Gold Layer connect directly to Power BI to drive th
 
 ---
 
+## ℹ️ Data Source
+
+The raw transactional data used in this project originates from the **Online Retail II** dataset, publicly available on the **[UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii)**. It contains all real-world transactions occurring between **01/12/2009 and 09/12/2011** for a UK-based, non-store online retailer registered primarily selling unique all-occasion gifts.
+
+---
+
 ## 📁 Repository Layout
 
 ```text
